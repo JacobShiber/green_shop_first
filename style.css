@@ -66,7 +66,7 @@ nav {
 }
 
 #content p {
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-size: 30px;
     margin-left: 1%;
     margin-bottom: 4%;
@@ -122,3 +122,32 @@ nav {
     justify-content: center;
 }
 
+@media screen and (max-width: 425px) and (min-width: 768px) {
+    #navlinks li {
+        font-size: 15px;
+    }
+
+    #content h1 {
+        font-size: 35px;
+    }
+
+    #content p {
+        font-size: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #cards {
+        max-width: 100%;
+    }
+
+    .card h2 {
+        font-size: 15px ;
+    }
+
+    .card p {
+        font-size: 2px;
+    }
+}
