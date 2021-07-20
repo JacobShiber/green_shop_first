@@ -1,7 +1,13 @@
-body {
-    background-color: rgb(173, 255, 47, 0.8);
+* {
+    margin: 0;
+    padding: 0;
 }
-
+body {
+    background-color: rgb(173, 255, 47, 0.7);
+}
+header {
+    margin-bottom: 70px;
+}
 
 nav {
     max-width: 100%;
@@ -46,7 +52,8 @@ nav {
 #content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     max-width: 100%;
     margin-top: 2%;
 }
@@ -55,7 +62,14 @@ nav {
     font-family: 'Dancing Script', cursive;
     font-size: 75px;
     font-weight: 900;
-    
+    margin-left: 1%;
+}
+
+#content p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 1%;
+    margin-bottom: 8%;
 }
 
 #cards {
@@ -64,6 +78,8 @@ nav {
     max-width: 100%;
     justify-content: space-between;
     margin: 1%;
+    background-color: whitesmoke;
+    border: 1px solid black;
 }
 
 #card1 {
