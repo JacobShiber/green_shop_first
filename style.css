@@ -1,0 +1,339 @@
+body {
+    background-color: rgb(173, 255, 47, 0.8);
+}
+
+
+nav {
+    max-width: 100%;
+}
+#navlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: teal;
+    max-height: 30px;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+}
+
+#navlinks li {
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+}
+
+#navlinks li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#home {
+    flex-grow: 0.25;
+}
+
+#navlinks li:hover {
+    font-size: 28px;
+}
+
+#navlinks li a:hover {
+    color: black;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 2%;
+}
+
+#content h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    font-weight: 900;
+    
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+#card1 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+    
+}
+#card1 img { 
+    width: 100%;
+    align-items: flex-start;
+}
+
+#card1 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+#card1 p {
+    border:1px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card2 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+    
+}
+#card2 img { 
+    width: 100%;
+    
+}
+
+#card2 h2 {
+    border:1px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card2 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card3 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card3 img { 
+    width: 100%;
+}
+
+#card3 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card3 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card4 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card4 img { 
+    width: 100%;
+}
+
+#card4 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card4 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card5 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card5 img { 
+    width: 100%;
+}
+
+#card5 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card5 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card6 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card6 img { 
+    width: 100%;
+}
+
+#card6 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card6 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card7 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card7 img { 
+    width: 100%;
+}
+
+#card7 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card7 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card8 {
+    max-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(216, 191, 216, 0.7);
+}
+#card8 img { 
+    width: 100%;
+}
+
+#card8 h2 {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#card8 p {
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+
